@@ -1,0 +1,221 @@
+                                              /* Chung*/
+body{
+    margin:0;
+}
+marquee{
+    font-style: oblique;
+}
+
+#logo{
+    display: block;
+object-fit: cover;
+width: 150px;
+height:auto !important ;
+}
+.navbar-brand{
+    height: auto;
+}
+    
+.navbar-nav{width: 100%;
+    justify-content:space-evenly}
+*{
+    box-sizing: border-box;
+}
+title{
+    display: none;
+}
+h1 , h2{
+    color:cornflowerblue !important;
+}   
+h3{
+    color:darkorange !important;
+    text-indent: 3%;
+}
+    
+                    /* Xây dựng phần nav*/
+
+li{ display: inline;
+    list-style-type: none;
+    text-decoration: none;
+    padding-left: 10px;
+}
+li a{
+    text-decoration: none;
+    padding: 0;
+   
+}  
+ul{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-align: center;
+    margin: 0;
+    padding: 20px 0;
+  
+   
+}
+                        /* banner*/
+#banner{
+    border-radius: 15px;
+    position: relative;
+    background-image: url('bannerx.jpg');
+     background-repeat: no-repeat;
+    background-size: contain;
+    height: 0;
+    padding-top: 39.5%;
+    width: 100%;
+    align-items: center;}
+    #banner .input{visibility: hidden;}
+
+
+                     /* Phần content*/  
+#dh{
+    padding-left: 20px;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+#link{
+    display: flex;
+    background-color: lavender;
+    margin-bottom: 30px !important;
+    text-indent: 20px;
+    text-decoration: underline;
+    font-weight: bold;
+}
+                    /* Phần ảnh*/
+.row{
+    height: auto;
+    padding-bottom: 80px !important;
+}
+.row h3{
+    text-align: center;
+}
+p{
+    text-indent: 30px;
+}
+.row img{
+    height: 300px !important ;
+    display: block;
+    object-fit: cover;
+    height: auto;
+    width: 100%;
+    border-radius: 50px;
+}
+.row div{
+    float:left;
+    height: auto;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    /*hr*/
+    display: table;
+}
+
+  
+
+/*footer*/
+section{
+    margin-top:100px;
+}
+
+#row2 div p{
+    text-indent: unset;
+}
+                                            /*Trang con */
+.row3{
+    height:auto;
+    padding-left: 50px;
+    padding-right: 50px;
+}                                            
+.content1 h1{
+    text-align: center;
+} 
+.row3 img{
+    border-radius: 30px;
+    display: block;
+    height: auto;
+    object-fit: cover;
+    float:left;
+    width: 100%;
+    margin-top :6%;
+}  
+.row3 div{
+    float:left;}
+.content1 h3{
+padding-top: 40px;
+padding-bottom: 30px;
+ }
+ .isub{
+     text-align: center;
+     font-size: 80%;
+     padding-top: 30px;
+     font-style: italic;
+     padding-bottom: 20px;
+ } 
+        /* icon sociated*/
+        .fa {
+            padding: 20px;
+            font-size: 30px;
+            width: 50px;
+            text-align: center;
+            text-decoration: none;
+            margin: 5px 2px;
+          }
+          
+          .fa:hover {
+              opacity: 0.7;
+          }
+          
+          .fa-facebook {
+            background: #3B5998;
+            color: white;
+          }
+          
+          .fa-twitter {
+            background: #55ACEE;
+            color: white;
+          }
+          
+          .fa-google {
+            background: #dd4b39;
+            color: white;
+          }
+          
+          .fa-linkedin {
+            background: #007bb5;
+            color: white;
+          }
+          
+          .fa-youtube {
+            background: #bb0000;
+            color: white;
+          }
+          
+          .fa-instagram {
+            background: #125688;
+            color: white;
+          }
+          
+                                     
+@media screen and (min-width: 768px) and (max-width :992px){
+}
+@media screen and (min-width: 992px){
+    #banner .input{
+        visibility: inherit;
+        padding: 0;
+        position:absolute !important;
+        text-align: center;
+        height: 10%;
+        width: 20px important! ;
+        top :20%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-family: Zapf Chancery, cursive ;
+        font-style: italic;
+    }
+
+marquee{
+    display: none;
+}
+}  
+
